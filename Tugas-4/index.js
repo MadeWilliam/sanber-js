@@ -12,7 +12,7 @@ function firstLoop() {
     console.log('LOOPING KEDUA');
     while (number > 0) {
         firstLimit -= 2
-        n--
+        number--
         console.log(firstLimit + ' - I will become a frontend developer');
     }
 }
@@ -24,19 +24,18 @@ function secondLoop() {
     let even = ' - Berkualitas'
     let words = ' - I Love Coding'
 
-    for (let i = 1; x <= 20; x++) {
-        if ((x % 3 === 0) && (x % 2 != 0)) {
-            console.log(x + words);
-        } else if (x % 2 === 0) {
-            console.log(x + even);
+    for (let i = 1; i <= 20; i++) {
+        if ((i % 3 === 0) && (i % 2 != 0)) {
+            console.log(i + words);
+        } else if (i % 2 === 0) {
+            console.log(i + even);
         } else {
-            console.log(x + odds);
+            console.log(i + odds);
         }
     }
 }
 
 //soal 3
-
 function thirdLoop() {
     for (let i = 0; i <= 7; i++) {
         let str = ''
@@ -48,6 +47,7 @@ function thirdLoop() {
     }
 }
 
+//soal 4
 function firstArray() {
     const string = "saya sangat senang belajar javascript"
     
@@ -55,6 +55,7 @@ function firstArray() {
     console.log(result);
 }
 
+//soal 5
 function secondArray() {
     const arr = ["2. Apel", "5. Jeruk", "3. Anggur", "4. Semangka", "1. Mangga"];
 
